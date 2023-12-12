@@ -1,0 +1,85 @@
+body{
+    font-family: 'Satoshi';
+     color: #10100e;
+     background-color: #F9F6EE;
+}
+.navbg{
+    background-color: #F9F6EE;
+    color: #a3a3f8;
+}
+button.btn-close {
+    background-color: #a2a2f7;
+}
+
+.carousel-item {
+    max-height: 94vh;
+}
+
+.nav-item a, .footer-item a{
+    font-family: 'Satoshi';
+    font-weight: 500;
+    padding: 3px 0;
+    text-decoration: none;
+    transition: 1s;
+}
+.nav-item a.active{
+    border-radius: 50px;
+    background-color: #a2a2f7;
+    font-weight: 800;
+    transition: 1s;
+}
+
+a.navbar-brand, a.footer-brand{
+    color: #10100e;
+    font-family: 'Satoshi';
+    font-weight: 900;
+    font-size: 26px;
+    text-decoration: none;
+}
+footer a, a.footer-brand{
+     color: #F9F6EE;
+}
+main, .container, thead{
+    background-color: #F9F6EE;
+}
+.title {
+     font-family: 'Satoshi';
+     color: #10100e;
+     font-size: 10vw;
+}
+.card.card-index {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border: 2px solid #10100e;
+    border-radius: 50px;
+    font-weight: 600;
+    font-family: 'Satoshi';
+    transition: 1s;
+    background-color: #F9F6EE;
+}
+.titleAdmin {
+     color: #10100e;
+     font-size: 10vw;
+     color: #a3a3f8;
+     font-weight: 800;
+     font-family: 'Satoshi';
+}
+.btn.btn-upload {
+    border: 2px solid #10100e;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: 1s;
+}
+
+.btn.btn-upload:hover {
+    background-color: #a2a2f7;
+    color: #10100e;
+    font-weight: 800;
+}
+footer {
+    background-color: #a2a2f7;
+    color: #F9F6EE;
+    font-weight: 800;
+}
+

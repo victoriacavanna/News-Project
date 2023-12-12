@@ -1,0 +1,66 @@
+.uploadNewsRow{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input.upload-input, textarea.upload-input{
+    background-color: #F9F6EE;
+    border: none;
+    border-bottom: 2px solid #10100e;
+    color: #10100e;
+    font-weight: 600;
+}
+.form-floating{
+ width: 100%;
+}
+
+input.upload-input:focus, textarea.upload-input:focus{
+    background-color: #F9F6EE;
+    border: none;
+    border-bottom: 2px solid #10100e;
+    color: #10100e;
+    font-weight: 600;
+}
+
+.form-floating>.form-control:focus ~ label.lbl-upload, {
+    color: #a2a2f7;
+    background-color: #F9F6EE;
+    font-weight: 600;
+}
+
+.lbl-upload::after{
+    background-color: #F9F6EE !important;
+    color: #10100e;
+}
+
+tr th.th-news{
+    background-color: #F9F6EE;
+    color: #10100e;
+}
+.tbody-news tr td{
+    background-color: #F9F6EE;
+    color: #10100e;
+}
+.tbody-news tr th{
+    background-color: #F9F6EE;
+    color:  #a2a2f7;
+}
+
+.title-admin-row {
+    min-height: 100vh;
+}
+.modal-content {
+    color: #a2a2f7;
+    font-family: 'Satoshi';
+    background-color: #F9F6EE !important;
+}
+.modal-title{
+    color: #a2a2f7;
+    font-family: 'Satoshi';
+    font-weight: 700;
+}
+.td-actions {
+    min-height: 100%;
+}
